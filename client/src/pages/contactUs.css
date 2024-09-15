@@ -1,0 +1,22 @@
+.h1 {
+    font-size: 25px;
+    font-family: Montserrat-Medium;
+    line-height: 34px;
+    font-weight: 500;
+}
+
+.col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 25%;
+}
+
+.p {
+    font-size: 20px;
+    font-family: Montserrat-Medium;
+    line-height: 25px;
+    font-weight: 300;
+}

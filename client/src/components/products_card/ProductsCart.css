@@ -1,0 +1,54 @@
+.carts {
+    width: 100%;
+    height: 90%;
+    box-shadow: 1.1px 4.39px 27.46px 0px #00000026;
+    background: white;
+    position: relative;
+}
+
+.cart {
+    width: 270px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding-top: 25px;
+    margin: 10px;
+}
+
+.cart p {
+    /* height: 35px; */
+    width: 300px;
+    font-family: Montserrat-Medium;
+    font-size: 20.56px;
+    font-weight: 500;
+    line-height: 26.82px;
+    text-align: center;
+    color: black;
+}
+
+.cart span {
+    font-family: Montserrat;
+    font-size: 23.56px;
+    font-weight: 500;
+    line-height: 25.82px;
+    text-align: center;
+    color: #d6763c;
+    position: relative;
+    opacity: 0px;
+    bottom: 35px;
+}
+
+.cart img {
+    height: 260px;
+    width: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carts:hover {
+    transform: scale(1.02);
+}
