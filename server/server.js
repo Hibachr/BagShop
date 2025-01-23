@@ -11,8 +11,7 @@ const dataSender = require('./routes/dataSender')
 
 
 dotenv.config({ path: './config.env' })
-port = process.env.port
-
+port = process.env.PORT || 3002
 //add request body to request object(middleware)
 app.use(express.json())
 
